@@ -1,0 +1,23 @@
+{
+  "name": "linak-desk-cli",
+  "version": "1.0.0",
+  "description": "Command line tool to control Linak Bluetooth Desk",
+  "main": "./src/bin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Regul777/linak-desk-cli.git"
+  },
+  "keywords": [
+    "linak",
+    "bluetooth"
+  ],
+  "author": "Dmytro Yakovenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Regul777/linak-desk-cli/issues"
+  },
+  "homepage": "https://github.com/Regul777/linak-desk-cli#readme"
+}
