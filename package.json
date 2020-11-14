@@ -1,6 +1,6 @@
 {
   "name": "linak-desk-cli",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Command line tool to control Linak Bluetooth Desk",
   "main": "./src/bin.js",
   "bin": {
@@ -28,5 +28,9 @@
   "homepage": "https://github.com/Regul777/linak-desk-cli#readme",
   "devDependencies": {
     "rollup": "^2.33.1"
+  },
+  "dependencies": {
+    "commander": "^6.2.0",
+    "webbluetooth": "^2.1.0"
   }
 }
