@@ -16,5 +16,3 @@ Or install **locally** to your package and use relative path:
 npm i linak-desk-cli
 ./node_modules/.bin/linak-desk --help
 ```
-
-
