@@ -1,9 +1,12 @@
 {
-  "name": "linak-desk-cli",
-  "version": "1.0.0",
+  "name": "@regul/linak-desk-cli",
+  "version": "1.0.1",
   "description": "Command line tool to control Linak Bluetooth Desk",
   "main": "./src/bin.js",
   "scripts": {
+    "start": "rollup --sourcemap -w -c rollup.config.js",
+    "build": "rollup -c rollup.config.js",
+    "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Regul777/linak-desk-cli/issues"
   },
-  "homepage": "https://github.com/Regul777/linak-desk-cli#readme"
+  "homepage": "https://github.com/Regul777/linak-desk-cli#readme",
+  "devDependencies": {
+    "rollup": "^2.33.1"
+  }
 }

@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+'use strict';
+
+const BASE_DIR = __dirname;
+
+require('../dist/bin.js');
