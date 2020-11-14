@@ -1,8 +1,11 @@
 {
-  "name": "@regul/linak-desk-cli",
-  "version": "1.0.1",
+  "name": "linak-desk-cli",
+  "version": "1.0.2",
   "description": "Command line tool to control Linak Bluetooth Desk",
   "main": "./src/bin.js",
+  "bin": {
+    "linak-desk": "./bin/linak-desk"
+  },
   "scripts": {
     "start": "rollup --sourcemap -w -c rollup.config.js",
     "build": "rollup -c rollup.config.js",
